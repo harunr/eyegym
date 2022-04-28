@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'millerregular';
+    src: url('../fonts/millertextroman-webfont.eot');
+    src: url('../fonts/millertextroman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/millertextroman-webfont.woff') format('woff'),
+         url('../fonts/millertextroman-webfont.ttf') format('truetype'),
+         url('../fonts/millertextroman-webfont.svg#millerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

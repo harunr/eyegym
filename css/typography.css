@@ -1,0 +1,167 @@
+
+
+
+/* ===================== Common style ======================= */
+body{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; font-family:'Open Sans', sans-serif; font-size:16px;line-height: 26px;font-weight:400; /*color: #3a4457;*/}
+
+h1,h3{font-family:'Work Sans', sans-serif;  font-size: 64px; font-weight: 300; line-height: 1.2;  }
+h2{font-family:'Work Sans', sans-serif;  font-size: 44px; line-height: 1.2; color: #3a4457; }
+h2.bold{font-weight: 700; }
+h2.light{font-weight: 300;}
+h3{font-size: 34px; line-height: 52px;}
+h4 {font-family:'Open Sans', sans-serif; font-size:20px; font-weight:400; line-height:1.5;}
+h4.bold{font-weight:700; line-height:1.4;}
+h6{font-size: 18px; font-weight: 700; line-height: 26px; color: #00c6d9;}
+
+.lead-bold-slate, .lead-bold-white{font-family:'Work Sans', sans-serif;  font-size:16px; font-weight:700; line-height:1.4; color: #3a4457;}
+.lead-bold-white{color: #FFFFFF;}
+.lead, .lead-2{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #3a4457;}
+.lead-2{line-height:1.6;}
+.lead-white-opensans, .lead-white-bold-opensans{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #ffffff;}
+.lead-white-bold-opensans{ font-weight:700;}
+.lead-slate-bold-opensans{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:700; line-height:1.6; color:  #3a4457;}
+.lead-white-worksans{font-family:'Work Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #ffffff;}
+.lead-blue{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #00c6d9;}
+.lead-blue-gray{font-family:'Work Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #93a2b0;}
+.lead-grey{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.4; color: #93a2b0;}
+
+p{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:26px; color: #3a4457;}
+p.bold{font-weight:700; color: #3a4457;}
+p.white{font-weight:400; color: #FFFFFF;}
+
+a {font-family:'Open Sans', sans-serif; font-size:14px; font-weight:400; line-height:1.6; color: #00c6d9;}
+
+.button-large{font-family:'Work Sans', sans-serif; font-size: 21px; text-decoration: none; font-weight: 700} 
+.medium-btn{font-family:'Work Sans', sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; font-weight: 700; line-height: 44px}
+.small-btn{font-family:'Work Sans', sans-serif; font-size: 16px; text-decoration: none; font-weight: 700; line-height: 44px}
+
+.header-nav ul li a{text-decoration:none;font-family:'Work Sans', sans-serif;font-size:16px;line-height:1.3;color:rgba(255, 255, 255, 0.8);font-weight:400}
+.header-nav ul li a:hover{color:#ffffff;}
+.header-nav ul li.active a{border-bottom:2px solid #ffffff;color:#ffffff;}
+
+.login-get-started-wrap a{text-decoration:none; font-size:14px;line-height:1.3;color:#ffffff; font-family:'Work Sans', sans-serif;font-weight:700;}
+/* ================= // End common style ============= */
+
+.fixedTop .header-nav ul li a,.fixedTop .login-get-started-wrap a{color:rgba(0, 198, 217, 0.8);}
+.fixedTop .header-nav ul li a:hover{color:#00c6d9;/*color:var(--aqua-blue);*/}
+.fixedTop .header-nav ul li.active a{border-bottom:2px solid #00c6d9;color:#00c6d9;}
+
+
+/* ======================= Home page ==================== */
+/* Begin header */
+.right-content h1, .right-content h2, .right-content p{color: #ffffff;}
+.right-content a{font-size: 24px; line-height: 50px; color:#ffffff; font-weight: 700; text-align: center;}
+.button-green a{font-size: 20px; line-height: 24px; text-align: center; font-family:'Work Sans', sans-serif;font-weight:700;}
+/* //End header */
+
+.will-work-section h2{color: #3a4457;}
+#who-is-eyegym-section .right-content-details .lead-white-opensans{line-height: 1.6}
+
+#who-is-eyegym-section .right-content-details .lead-white-opensans a{font-weight: 700; color: #ffffff; border: none; font-size: 16px; width: auto; height: auto; margin: 0; display: inline-block; text-decoration: none; line-height: 1.4}
+#who-is-eyegym-section .right-content-details .lead-white-opensans a:hover{text-decoration: underline}
+
+#who-is-eyegym-section .blockquote-wrap .lead-bold-slate{color: #637382;}
+#who-is-eyegym-section .blockquote-wrap .lead-bold-slate span{font-size: 13px; line-height: 1.3; color: #637382; font-family:'Work Sans', sans-serif;font-weight:400;}
+
+#who-is-eyegym-section .right-content-wrap .right-content-details h2{color: #3a4457;}
+
+#who-is-eyegym-section .lower-section .right-content-wrap .right-content-details .medium-btn{font-size: 16px;}
+
+#partner-section{text-align: center;}
+#partner-section .partner-logo-inner p{font-size: 14px; line-height: 1.6}
+#partner-section .partner-logo-inner a{text-decoration: none;}
+#partner-section .partner-logo-inner a:hover{text-decoration: underline;}
+
+.focused input[type="text"]{color: #3a4457;}
+.contact-row input[type="text"]{color: #93a2b0;}
+.header-nav ul li a{font-weight: 500;}
+.login-get-started-wrap a.get-started:hover{color: #00c6d9;}
+/* footer-section */
+.footer-top-wrap h3{ font-size: 20px; letter-spacing: 1.9px; line-height: 1.2; color: #ffffff; font-family:'Work Sans', sans-serif; font-weight: 700;}
+.footer-nav li a{text-decoration:none;font-size:14px;line-height:20px;font-family:'Work Sans', sans-serif;font-weight:500;color:rgba(255, 255, 255, 0.8);}
+.footer-nav li a:hover{color:#ffffff;}
+.copy-right p{font-size:12px;line-height:20px;font-family:'Work Sans', sans-serif;font-weight:400;color:#93a2b0;}
+.footer-top-wrap .small-btn{line-height: 20px; font-family:'Work Sans', sans-serif; font-weight:700;}
+/* // footer-section */
+.footer-top-wrap h4{ font-size: 24px; color: #ffffff;  font-family:'Work Sans', sans-serif; font-weight: 700}
+.footer-top-wrap .button-green{ text-align: center; margin-top: 31px}
+#footer-section .common-wrap{padding-bottom: 0;}
+
+.slider-content span{float: left; width: 100%; font-size: 16px; color: #00c6d9; font-weight: 700}
+.slider-content dfn{ float: left;width: 100%;font-size: 16px; color: #93a2b0; font-style: normal;}
+/* ================================================================================= */
+/* =============================== Responsive CSS ================================== */
+/* ================================================================================= */
+
+
+@media only screen and (max-width:767px) {
+    h1{font-size:24px;}
+    h2{font-size:22px;}
+    h4{font-size:16px;}
+
+    .header-nav ul li a{color:#000000;}
+    .header-nav ul li a:hover,.header-nav ul li.active a{color:#000000;}
+    .login-get-started-wrap a{color:#000000;}
+    .login-get-started-wrap a.get-started{color:#00c6d9}
+
+    .footer-nav ul:first-child li:last-child a{color:#00c6d9}
+    .right-content h2,
+    .right-content h4,
+    .will-work-section h2{color: #3a4457;}
+    
+    .right-content h1,
+    .will-work-section h2,
+    .recently-tweeted h4,
+    #real-science-section .right-content h2,
+    #who-is-eyegym-section .right-content-details h2{font-size: 30px; line-height: 1.2;}
+    .mobi-btn .medium-btn{font-size: 16px;}
+    .right-content h4,
+    .lead-white-bold-opensans,
+    #real-science-section .right-content h4,
+    #who-is-eyegym-section .right-content-details .lead-white-opensans,
+    #who-is-eyegym-section .lower-section .right-content-wrap .right-content-details .lead-2{font-size: 14px; line-height: 1.4;}
+    
+    .header-section .button-type-2 a{color: #ffffff;  font-size: 16px;}
+    .header-section .button-type-2 a:hover{color: #FFFFFF}
+    
+    #real-science-section .right-content h1,
+    #real-science-section  .right-content h2,
+    #real-science-section  .right-content h4, 
+    #who-is-eyegym-section .right-content-details h2{color: #FFFFFF;}
+    
+    .will-work-section h2{text-align: center;}
+    
+    .footer-top-wrap h3{font-size: 24px; letter-spacing: initial; font-weight: 600}
+    #real-science-section .right-content h4{color: #3a4457;}
+    
+
+
+}
+/*		Mobile Layout:480px
+-----------------------------------------------------------------
+*/
+@media only screen and (min-width:415px) and (max-width:767px) {
+    
+    
+    
+}
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .right-content h1{font-size: 44px;}
+    .footer-top-wrap h3{font-size: 17px}
+    
+    #who-is-eyegym-section .right-content-details h2{font-size: 32px;}
+
+}
+	
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .right-content h1{font-size: 55px;}
+    
+    
+      
+
+}

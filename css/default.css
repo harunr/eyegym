@@ -1,0 +1,426 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*
+	Title:		EyeGym
+	Date:		18 May, 2016
+-------------------------------------	
+*/
+
+/* 
+	Common Styles 
+------------------
+*/
+@-moz-keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}@-o-keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}@-ms-keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}@-khtml-keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes from-top{from{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}to{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}}
+html,body{width:100%;height:100%}
+html,body{min-height:100%;width:100%;height:100%}
+body{margin:0;padding:0;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-family:'Open Sans', sans-serif;font-size:16px;line-height:26px;color:#3a4457;color:var(--slate);overflow-x:hidden; font-weight:300; overflow-x: hidden;}
+.clear:after,.row:after,.learn-more:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+a{-webkit-transition:color 200ms ease;-moz-transition:color 200ms ease;transition:color 200ms ease;}
+a img{border:0}
+img{width:100%; float: left;}
+a,input,select,textarea,button{outline:none;}
+input::-moz-focus-inner{border:0;padding:0;}
+input, textarea, select{-webkit-appearance:none;-moz-appearance:none;border-radius:0px;}
+textarea{resize:none}
+article,aside,figure,figcaption,footer,hgroup,header,nav,section{display:block}
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, a, address, del, dfn, em, img, small, strong, 
+b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,table, tr, 
+td, canvas, footer, header, nav, section, time, audio, video {margin:0;padding:0;border:0}
+
+
+/* 
+	Common Styles 
+------------------
+*/
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+.page-wrap,.section-wrap{float:left;position:relative;width:100%;}
+.section-wrap{z-index: 3}
+.page-wrap{z-index:1; overflow-x: hidden}
+.common-wrap{clear:both;position:relative;width:100%;max-width:1150px;margin:0 auto;padding:0 15px;z-index:6; padding-bottom: 64px}
+
+.main-header{position:absolute;left:0;top:0;width:100%;height:150px;z-index:100;}
+.main-header .common-wrap{max-width: 1170px;}
+div.main-header.mobifixedTop{ position: absolute; height: 150px; }
+.header-logo{float:left;position:relative;width:269px;margin:35px 0 0 12px;}
+.header-logo a{float:left;position:relative;}
+.header-logo a img{float:left;margin:0;width:100%}
+.header-nav-login-get-started-wrap{float:right;position:relative;margin:48px 0 0}
+.header-nav{float:left;position:relative;margin:6px 0 0}
+.header-nav ul{float:left;margin:0;padding:0;list-style:none;}
+.header-nav ul li{float:left;margin:0 29px 0 0}
+.header-nav ul li a{float:left;padding-bottom:5px;border:none;border-bottom:2px solid transparent;}
+.login-get-started-wrap{float:right;position:relative;}
+.login-get-started-wrap a{float:left;position:relative;}
+.login-get-started-wrap a.log-in{margin:7px 23px 0 0}
+.login-get-started-wrap a.get-started{padding:7px 21px;margin-right:9px;border:1px solid #ffffff;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
+.mobi-nav{position:absolute;right:20px;top:28px;width:28px;height:19.6px;padding:0;cursor:pointer;z-index:999;display:none;z-index:100}		    
+.mobi-nav div{float:left;width:20px;height:2px;margin-top:5px;}
+.mobi-close-btn{display:none;position:absolute;right:24px;top:28px;width:18px;height:18px;z-index:100;cursor:pointer;z-index:100;}
+.header-scroll-logo{display:none;float:left;position:relative;width:166px;margin:15px 0 0;}
+.mobi-header-bar{float: left; width: auto; position: relative;}
+/* // header-section */
+
+.header-section .left-graphics{float: left; width: 52%; max-width: 613px; margin-top: 182px; margin-right: 1.478%;}
+
+.success-slider-wrap .flex-viewport{ overflow: visible !important}
+
+
+
+/* banner-section */
+#banner-section{float:left;position:relative;min-height:1626px;z-index:3;overflow:hidden;}
+
+/* // banner-section */
+
+
+/* fixed-top css */ 
+div.main-header.mobifixedTop.fixedTop{ height:80px;position:fixed;top:-80px;left:0;z-index:10000; transition:0.9s top ease;}
+
+body.down div.main-header.mobifixedTop.fixedTop {
+    top:0;
+}
+
+.fixedTop .header-scroll-logo{display:block;}
+.fixedTop .header-logo{display:none;}
+.fixedTop.main-header{height:80px}
+.fixedTop .header-nav-login-get-started-wrap{margin:24px 0 0}
+
+/* // fixed-top css */
+
+/* Home header */
+.bg-pattern{float: right; width: 100%; position: absolute; right: 0; top: 0; min-height: 10px; height: 100%; z-index: 3; }
+.mobi-skin{display: none;}
+.header-section{float: left; width: 100%; margin-top: 0px;}
+.left-graphics{float: left; width: 50%; max-width: 575px; margin-top: 182px; margin-right: 3.478%;}
+.left-graphics .graphics-figure{float: left; max-width: 540px;}
+
+.right-content{float: left; width: 44.347%; max-width: 510px; margin-top: 182px; padding-left: 78px}
+.right-content h1{margin-top: -15px}
+.right-content p{margin-top: 20px; max-width: 352px;}
+.right-content a{margin-top: 45px;}
+
+.will-work-section{float: left; width: 100%; margin-top: 96px; position: relative;}
+.will-work-section h3{float: left; width: 100%; text-align: center;}
+.concentration-wrap{width: 100%; max-width: 1110px; margin: 0 auto; clear: both; overflow: hidden;}
+.will-work-item{float: left; max-width: 315px; width: 28.37837837837838%; margin-left: 7.432432432432432%; text-align: center; margin-top: 47px;}
+.will-work-item:first-child{margin-left: 0;}
+.will-work-item h6{margin-top: 26px;}
+.will-work-item p{margin-top: 14px;}
+.concentration-img{width: 60px; margin: 0 auto; clear: both; overflow: hidden;}
+.concentration-img img{float: left; width: 100%;}
+.concentration-wrap h4{float: left; max-width: 404px; margin-top: 20px; display: block; margin-left: 40px;}
+/* // End home header */
+
+/* Home page content style */
+.mobi-btn{display: none;}
+.desktop-btn{display: block;}
+.left-graphics iframe{ float: left; width: 100%; max-width: 575px; height: 330px;}
+
+#real-science-section .graphics-figure{max-width: 390px; margin-top: -10px; margin-left: 116px;}
+#real-science-section .right-content{ margin-top: 127px;}
+#real-science-section .right-content h4{ margin-top: 30px;}
+#real-science-section .right-content h2{ color:#3a4457}
+#real-science-section .right-content .medium-btn{ margin-top: 38px; border: none; height: 44px;}
+#real-science-section .left-graphics{ float: left; margin-right: 0px; margin-left: 8.928571428571429%; width: 46.25%; margin-top:74px; max-width: 518px}
+
+.round-image-item{ float: left; width: 100%;}
+.round-image-item img{ float: left; width: 100%;}
+
+.success-stories-section{ float: left; width: 100%; margin-top: 68px; background: linear-gradient(to top, #ffffff, #edf0f5); padding: 85px 0 0px 0}
+.success-stories-section .flex-control-nav{ bottom: -43px}
+.success-stories-inner{ max-width: 650px; margin: 0 auto; clear: both; padding: 0;}
+.success-stories-title-wrap{float: left;width: 100%; }
+.success-stories-title-wrap h3{ text-align: center; width: 100%;}
+.success-stories-title-wrap p{ text-align: center; width: 100%; padding:30px 16px 0;}
+
+.success-slider-wrap{ float: left; width: 100%; margin-top:43px;}
+.success-slider{ float: left; width: 100%; }
+.slider-content{ float: left; width: 100%;}
+.hasfigure .slider-content{float: left; width: calc(100% - 100px);}
+.slider-content p{ padding-top: 10px; float: left; width: 100%; text-align:left}
+.success-slider li.slide{ float: left; width:100%;}
+.success-slider li.slide .slider-info{border-radius: 4px; opacity: 0.4; margin: 0 25px; min-height: 218px;}
+.success-slider li.slide.flex-active-slide .slider-info{opacity: 1; box-shadow: 0 15px 20px 0 rgba(99, 115, 130, 0.1); }
+.slider-figure{float: left; width: 100px; padding-right: 30px }
+.slider-figure img{ float: left; width: 100%;border-radius: 100%;border: 4px solid #ffffff; box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);}
+.slider-info{float: left; padding: 33px 50px 45px 34px;background: #ffffff; clear: both; overflow: hidden}
+.slider-info{float: left; padding: 33px 50px 45px 34px;background: #ffffff; clear: both; overflow: hidden}
+
+#real-science-section .common-wrap{ padding-bottom: 0px}
+#partner-section .common-wrap{ padding-bottom: 46px}
+
+#who-is-eyegym-section{ border-bottom: 1px solid #edf0f5; padding-top: 45px;}
+#who-is-eyegym-section .upper-section{float: left; width:100%; position: relative; }
+#who-is-eyegym-section .brayanhabana-graphics{float: left; width:49%; max-width:856px; /*margin-top: -296px;*/ position: relative; left: 0px; top: 0;}
+#who-is-eyegym-section .brayanhabana-graphics img{position: relative; z-index: 2}
+#who-is-eyegym-section .right-content-wrap{float: right; width: 100%; position: absolute; right: 0; left: 0; z-index: 5}
+#who-is-eyegym-section .right-content{float: right; width:51%; max-width: 714px; margin-top: 0; padding-top: 80px; padding-left: 0;}
+#who-is-eyegym-section .right-content-details{float: right; max-width: 400px; margin-right: 45px;}
+
+
+.partner-section{ float: left; width: 100%;}
+#partner-section .partner-section-wrap{margin-top: 150px;}
+#partner-section .partner-logo-wrap{max-width: 225px; width: 19.565%; margin: 37px 3.4% 37px; position: relative; display: inline-block; clear: both; overflow: hidden;}
+#partner-section .partner-logo-wrap:nth-child(2){margin-left: 0;}
+#partner-section .partner-logo-wrap:last-child{margin-right: 0;}
+#partner-section .partner-logo-inner{float: left; width: 100%; text-align: center; margin-top: 2px;}
+#partner-section .partner-wrap{float: left; width: 100%; margin: 120px 0 63px;}
+.partner-logo-inner p{margin:0;clear: both;padding-top: 14px;}
+
+.right-content-details h4{ margin-top: 30px; max-width: 444px;}
+
+/* footer-top-section */
+#footer-top-section .common-wrap{padding-bottom: 60px;}
+#partner-section .light{ font-size: 34px; line-height: 52px}
+#partner-section .button-green{ margin-top: 31px}
+
+#footer-top-section{ z-index: 2; padding: 60px 0 0 0}
+/*#footer-top-section .bg-pattern{min-height: 10px; height: 100%;}*/
+.footer-top-wrap{max-width: 897px; width: 100%; margin: 0 auto; position: relative; clear: both; }
+.footer-top-wrap h3{float: left; max-width: 575px; margin-top: 38px; position: relative; left: 59px;}
+.footer-top-wrap .small-btn{margin-top: 30px; margin-left: 125px;}
+
+.flex-control-nav{background: none; display: inline-block; width: 100%; text-align: center; left: 0; margin-left: 0; bottom: 0px;}
+.common-slider{padding-bottom: 30px;}
+
+/* // footer-top-section */
+
+/* footer-section */
+#footer-section{padding-bottom:25px; z-index: 2}
+.footer-logo{clear:both;position:relative;width:53px;margin:25px auto 0;}
+.footer-logo a{float:left;position:relative;}
+.footer-logo a img{float:left;margin:0;width:100%}
+.footer-nav{float:left;position:relative;width:100%;text-align:center;padding-top:15px}
+.footer-nav ul{margin:0;padding:0;list-style:none;display:inline-block;}
+.footer-nav li{display:inline-block;position:relative;margin:0 18px;padding:0;}
+.footer-nav li a{display:block;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
+.copy-right{clear:both;position:relative;width:100%;margin:0 auto;text-align:center;padding-top:3px}
+/* // footer-section */
+
+.footer-top-wrap h4{ text-align: center;}
+
+.slide-content-wrap{float: left; margin: 0 15px;}
+
+
+.background{background-repeat:no-repeat; background-position:50% 50%; }
+.fullscreen, .content-a {width:100%;min-height:100%;}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a{ height:100%;overflow:hidden;}
+.not-fullscreen{height:30%;}
+.featured-section.parallax{perspective: 1px; min-height: 848px; height: auto; overflow-x: hidden; overflow-y: auto; }
+
+
+
+/* ================================================================================= */
+/* =============================== Responsive CSS ================================== */
+/* ================================================================================= */
+
+@media only screen and (max-width:767px) {
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+    /* header-section */
+    .main-header{height:75px; z-index: 33}
+    .main-header .common-wrap{padding:0;}
+    .header-logo{width:170px;margin:14px 0 0;padding-left:20px}
+    .mobi-nav{display:block;}
+    .mobi-close-btn{display:none;}
+    .header-nav-login-get-started-wrap{float:left;margin:0;width:100%;padding:0 20px;display:none; overflow-y: scroll;  height: 80%; position: fixed; left: 0; top: 0; z-index: 15; padding-top: 75px;}
+    .header-nav{margin:19px 0 0;width:100%;}
+    .header-nav ul{width:100%;}
+    .header-nav ul li{margin:10px 0 23px;width:100%;}
+    .login-get-started-wrap{float:left;width:100%}	
+    .login-get-started-wrap a.log-in{margin:10px 0 23px;width:100%}
+    .login-get-started-wrap a.get-started{padding:30px 0;width:100%;border:none;border-top:1px solid #dce0e5;}	
+    /* // header-section */
+
+    /* banner-section */	
+    #banner-section,.banner-wrap{min-height:300px;}	
+
+    .hd-skin{display: none}
+    .mobi-skin{display: block;}
+    
+    .left-graphics{margin-top: -170px; width: 100%;}
+    .left-graphics .graphics-figure{max-width: 290px; float: none; margin: 0 auto; clear: both; overflow: hidden}
+    .right-content{max-width: 100%; width: 100%; text-align: center; margin-top: 38px;}
+    .right-content h1{margin-top: 0; padding:0 45px;}
+    .right-content h4{margin-top: 28px;}
+    .header-section .right-content a{margin-left: 0; margin-top: 28px;}
+
+    .will-work-section{margin-top: 36px;}
+    .will-work-section h2{float: none; margin: 0 auto; padding: 0 45px;}
+    
+    .desktop-btn{display: none;}
+    .mobi-btn{display: block; width: 100%; max-width: 450px; float: none; margin: 0 auto;}
+    .mobi-btn .medium-btn{width: 100%; max-width: 338px; margin-top: 75px;}
+    
+    #who-is-eyegym-section .right-content-wrap{max-width: 100%; position: relative;}
+    #who-is-eyegym-section .right-content{width: 100%;}
+    #who-is-eyegym-section .right-content-details{max-width: 100%; width: 100%; margin-left: 0px;}
+    
+    #who-is-eyegym-section .right-content-details{margin-top: 0;}
+    #who-is-eyegym-section .right-content-details .lead-white-opensans{margin-top: 28px; padding: 0 25px;}
+    #who-is-eyegym-section .right-content{margin-top: 40px;}
+
+    #who-is-eyegym-section .brayanhabana-graphics{width: 100%; margin-top: 0; left: 0;}
+    .radial-circel{width: 266px; top: -45px; right: -25px; z-index: 1;}
+    #who-is-eyegym-section .brayanhabana-graphics{width: 85%; margin-top: 10px; left: 0}
+
+    
+    .footer-top-wrap h3{left: 0; text-align: center; }
+    #footer-top-section{height: auto;}
+    #footer-top-section .button-type-2{width: 100%; text-align: center; margin: 39px 0 42px;}
+    .footer-top-wrap .small-btn{float: none; width: 100%; max-width: 400px; margin: 0 auto; clear: both; overflow: hidden; display: inline-block}
+
+    .footer-top-wrap h3 { left: 0; text-align: center; margin-top: 47px; padding: 0 10px; }
+    /* // banner-section */
+
+    
+    .left-graphics .graphics-figure{display: none;}
+    .right-content h1{padding: 0; }
+    
+    .concentration-img, #will-work-section-lower .concentration-wrap:first-child .concentration-img, #will-work-section-lower .concentration-wrap:last-child .concentration-img{float: none; margin: 0 auto; text-align: center;}
+    
+    div.main-header.fixedTop{ display: none}
+    div.main-header.mobifixedTop{ position: fixed; width: 100%; height: 76px; top: -1px; left: 0; zoom:1;}
+
+    .mobi-header-bar{float: left; width: 100%; height: 75px; position: fixed; top: 0; left: 0; z-index: 100000}
+    .sidebar-left{width: 100%; max-width: 100%;}
+    .news-right-thumb{width: 100%; right: auto; margin-top: 30px;}
+    .news-wrap{left: auto; float: left;}
+    .top-search-bar{max-width: 100%; right: auto; top: auto; margin-top: 20px; float: left;}
+    .top-search-bar, .top-search-bar .top-search-btns{width: 100%;}
+   
+    
+    
+    .home-page .left-graphics .graphics-figure{display: block;}
+    
+    /*.bg-pattern{min-height: 10px;}*/
+    /*#who-is-eyegym-section .bg-pattern{min-height: 700px;}  */
+    
+    /* footer-section */
+    .footer-nav ul:first-child{float:left; width:40%;}
+    .footer-nav ul:last-child{float:left; width:60%;}
+    .footer-nav ul li{padding-bottom:27px}	
+    .footer-nav{padding-top:45px}
+    .copy-right{padding-top:15px}
+    #footer-section{padding-bottom:40px;}
+    /* // footer-section */
+
+    .header-section .left-graphics{float: left; width: 100%; max-width: 100%; margin-top: 120px; text-align: center;}
+    .left-graphics iframe,.left-graphics img{float: none; width: 100%; max-width: 613px; margin: 0 auto 0; clear: both; overflow: hidden; height: 230px;}
+    .left-graphics img{height: auto;}
+    .right-content{padding-left: 0;}
+    .right-content p{max-width: 100%;}
+    .right-content h1 br{display: none;}
+    .will-work-item,.will-work-item:first-child{float: none; margin: 45px auto 0; clear: both; overflow: hidden; width: 100%;}
+    #who-is-eyegym-section{padding-top: 0;}
+    #who-is-eyegym-section .right-content{margin-top: 0; padding-top: 0;}
+    
+    #who-is-eyegym-section .right-content,.right-content-details h4{max-width: 100%;}
+    #who-is-eyegym-section .right-content-details{margin-right: 0;}
+    #who-is-eyegym-section .brayanhabana-graphics{left: auto; right: auto; top: auto; bottom: auto; float: left; margin: 0 auto; clear: both; overflow: hidden; width: 100%;}
+    
+    #real-science-section .right-content{margin-top: 50px;}
+    #real-science-section .left-graphics{float: left; width: 100%; max-width: 100%; padding-top: 30px; margin: 0;}
+    #real-science-section .left-graphics .round-image-item{float: none; margin: 0 auto 0; clear: both; overflow: hidden; width: 100%; max-width: 518px;}
+    
+    .hasfigure .slider-content,#partner-section{width: 100%; padding-top: 30px;}
+    .success-stories-section{padding-top: 45px;}
+    .slider-info {padding: 33px 25px 25px;}
+    .success-stories-section .flex-control-nav{display: none;}
+    #partner-section .partner-section-wrap{margin-top: 0;}
+    #partner-section .partner-logo-wrap:nth-child(2),#partner-section .partner-logo-wrap{float: left; width: 100%; max-width: 100%; margin: 0;}
+    #partner-section .partner-logo-inner{float: none; width: 100%; max-width: 225px; margin: 30px auto 0; clear: both; overflow: hidden;}
+    
+    .button-green a{width: 100%;}
+
+}
+
+
+/*		Wide Mobile Layout:480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width:415px) and (max-width:767px) {
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+    /*#who-is-eyegym-section .bg-pattern { min-height: 785px; }*/
+    .left-graphics iframe{height: 330px;}
+    
+    .hasfigure .slider-content{width: calc(100% - 100px); padding-top: 0px;}
+
+}
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+    .header-logo{width:170px;margin:40px 0 0;}
+    .header-nav-login-get-started-wrap{margin:48px 0 0}
+
+    .header-nav ul li{margin:0 12px 0 0}
+
+    .login-get-started-wrap a.log-in{margin:7px 12px 0 0}
+
+    .login-get-started-wrap a.get-started{padding:6px 10px;}
+    .header-nav ul li a{font-size:14px;}
+    .login-get-started-wrap a{font-size:13px;}
+    .left-graphics{margin-top: -55px;}
+    .right-content{padding-left: 25px; width: 45%;}
+    #real-science-section .right-content{width: 44.347%;}
+    #who-is-eyegym-section .right-content{padding-left: 25px; padding-top: 0;}
+        
+    #partner-section .partner-logo-wrap{float: left; clear: none; margin-top: 40px;}
+    #partner-section .partner-wrap{margin-top: 60px;}
+
+    .footer-top-wrap .button-type-2{max-width: 230px;}
+    .footer-top-wrap h3{left: 0;}
+    .footer-top-wrap .small-btn{margin-left: 25px;}
+
+    .partner-logo-inner p{min-height: 66px;}
+    #who-is-eyegym-section{padding-top: 20px;}
+    #who-is-eyegym-section .right-content-details{margin-right: 0;}
+    #real-science-section .right-content{margin-top: 90px;}
+    
+    .left-graphics iframe{height: 250px;}
+    
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+    .header-logo{width:220px;margin:40px 0 0;}
+    .header-nav-login-get-started-wrap{margin:48px 0 0}
+    .header-nav ul li{margin:0 15px 0 0}
+
+    .login-get-started-wrap a.log-in{margin:7px 15px 0 0}
+    .login-get-started-wrap a.get-started{padding:6px 15px;}
+    .header-nav ul li a{font-size:16px;}
+    .login-get-started-wrap a{font-size:15px;}
+    
+    #partner-section .partner-logo-wrap{display: inline-flex; }
+    .partner-logo-inner p{min-height: 66px;}
+    
+    #who-is-eyegym-section .right-content{padding-top: 20px;}
+
+    #real-science-section .right-content{margin-top: 100px;}
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+    
+
+
+
+}
+

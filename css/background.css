@@ -1,0 +1,56 @@
+
+
+.section-wrap{background-color:#ffffff;}
+.common-header{background: linear-gradient(to right, #0071a6, #00d8f5);}
+.mobi-nav div{background:#ffffff}
+.mobi-close-btn{background:url("../images/mobi-close-bg.png") no-repeat 0 0;}
+
+#hero-section{background: linear-gradient(to right, #0071a6, #00d8f5);}
+.bg-pattern{background: url(../images/background-pattern.png) repeat 0 0;}
+
+
+/* Begin footer */
+.fixedTop.main-header{background:#fff;}
+.fixedTop{box-shadow:0 1px 2px 0 rgba(50, 60, 78, 0.25), inset 0 -1px 0 0 #00c6d9;}
+.fixedTop .login-get-started-wrap a.get-started{background:#00c6d9;color:#ffffff;border:1px solid #00c6d9;}
+.login-get-started-wrap a.get-started:hover{ background: #ffffff;}
+
+#footer-top-section{ background:  linear-gradient(to right, #0071a6, #00d8f5);}
+#footer-section{background:#3a4457}
+/* // End footer */
+
+
+/* ================================================================================= */
+/* =============================== Responsive CSS ================================== */
+/* ================================================================================= */
+
+
+@media only screen and (max-width:767px) {
+    .mobifixed-top .main-header{background:#0091b4;}
+    .header-nav-login-get-started-wrap{background:#ffffff;box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2);}
+    .login-get-started-wrap a.get-started:hover{background:#ffffff;color:#00c6d9;border:none;border-top:1px solid #dce0e5;}
+   
+    .header-section .button-type-2 a{background-color: #00c6d9;}
+    .header-section .button-type-2 a:hover{background-color: rgba(0, 197, 217, 0.9);}
+      
+    .mobi-header-bar{background: linear-gradient(to right, #0071a6, #00d8f5);}
+    .main-header.mobifixedTop{background: linear-gradient(to right, #0071a6, #00d8f5);}
+    
+
+}
+	
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+		
+}
+	
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	
+	
+}
